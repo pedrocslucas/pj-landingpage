@@ -1,0 +1,23 @@
+.cardCliente{
+  display: grid;
+  justify-content: center;
+  max-width: 350px;
+  background-color: white;
+  gap: 25px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardCliente img{
+  margin: auto;
+}
+
+.nome{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.texto{
+  font-weight: 500;
+}

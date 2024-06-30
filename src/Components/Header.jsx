@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styles from "../styles/Header.module.css";
 import logoPointJob from "../assets/logoPointJob.png";
 import Button from "./Button";
 

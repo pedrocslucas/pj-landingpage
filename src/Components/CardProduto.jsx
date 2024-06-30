@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./CardProduto.module.css";
+import styles from "../styles/CardProduto.module.css";
 
 const CardProduto = ({ titulo, icone, texto }) => {
   return (

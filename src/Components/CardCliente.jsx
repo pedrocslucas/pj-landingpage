@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./CardCliente.module.css";
+import styles from "../styles/CardCliente.module.css";
 
 const CardCliente = ({ nome, foto, texto }) => {
   return (

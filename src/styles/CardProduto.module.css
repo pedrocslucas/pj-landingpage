@@ -1,3 +1,7 @@
+:root {
+  --cor-produto-titulo: #256643;
+}
+
 .cardProduto{
   background-color: #FFFFFF;
   padding: 25px 30px;
@@ -7,7 +11,7 @@
 
 .cardProduto h3{
   font-size: 25px;
-  color: #256643;
+  color: var(--cor-produto-titulo);
 }
 
 .cardProduto div{

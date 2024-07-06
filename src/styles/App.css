@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --cor-principal: #236742;
+  --cor-principal-produto-titulo: #18472E;
+  --cor-principal-produto-titulo-linha: #23674269;
+  --cor-principal-card: #236742db;
+}
+
 *,
 *::after,
 *::before {
@@ -17,7 +24,7 @@ body{
   padding: 0 9rem;
   background: linear-gradient(
     180deg,
-    #236742 6%,
+    var(--cor-principal) 6%,
     #ffffff 100%
   );
   background-size: 100% 100vh; /* Gradiente cobre 100% da largura e 50% da altura da viewport */
@@ -48,7 +55,7 @@ body{
 .apresentacao h1 span{
   font-weight: bold;
   font-size: 45px;
-  color: #236742;
+  color: var(--cor-principal);
   background-color: #FFFFFF;
   border-radius: 10px;
   padding-left: 5px;
@@ -83,14 +90,14 @@ body{
   margin: 0;
   margin-top: 100px;
   margin-bottom: 50px;
-  color: #18472E;
+  color: var(--cor-principal-produto-titulo);
 }
 
 .produtoTitle::before,
 .produtoTitle::after {
   content: "";
   height: 9px;
-  background-color: #23674269;
+  background-color: var(--cor-principal-produto-titulo-linha);
   margin: 0 10px;
   border-radius: 10px;
 }
@@ -119,9 +126,9 @@ body{
   font-size: 25px;
   font-weight: bold;
   padding: 13px 20px;
-  background-color: #236742;
+  background-color: var(--cor-principal);
   color: white;
-  transition: #236742 0.3s ease, color 0.3s ease;
+  transition: var(--cor-principal) 0.3s ease, color 0.3s ease;
   border-radius: 7.5px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -129,7 +136,7 @@ body{
 
 
 .clientes {
-  background-color: #236742;
+  background-color: var(--cor-principal);
   padding-top: 100px;
   text-align: center;
   padding-bottom: 50px;
@@ -168,7 +175,7 @@ body{
 
 .callCard {
   text-align: center;
-  background: linear-gradient(128deg, #236742db 42%, #ffffff 206%);
+  background: linear-gradient(128deg, var(--cor-principal-card) 42%, #ffffff 206%);
   padding: 60px;
   border-radius: 20px;
   display: inline-block; 
@@ -196,7 +203,7 @@ footer{
 }
 
 footer p{
-  color: #236742;
+  color: var(--cor-principal);
   font-size: 20px;
   font-weight: 300;
 }
@@ -206,9 +213,9 @@ footer::after {
   display: block;
   width: 100%;
   height: 20px;
-  background-color: #236742; /* Cor verde */
+  background-color: var(--cor-principal); /* Cor verde */
   bottom: 0;
   left: 0;
-  box-shadow: 232px 0px 0px 0px rgba(35,103,66,1),
-  -232px 0px 0px 0px rgba(35,103,66,1);
+  box-shadow: 232px 0px 0px 0px var(--cor-principal),
+  -232px 0px 0px 0px var(--cor-principal);
 }

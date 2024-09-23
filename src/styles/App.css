@@ -42,15 +42,7 @@ body{
   overflow-x: hidden;
 }
 
-/* Media Queries
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-*/
-
-/* ESTILOS ESPECÍFICOS */
+/* ESTILOS GERAIS */
 
 .apresentacao{
   display: grid;grid-template-columns: 1fr 1fr;
@@ -235,3 +227,13 @@ footer::after {
   box-shadow: 232px 0px 0px 0px var(--cor-principal),
   -232px 0px 0px 0px var(--cor-principal);
 }
+
+/* ESTILOS ESPECÍFICOS */
+
+/* Media Queries
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+*/
